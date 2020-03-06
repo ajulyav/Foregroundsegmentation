@@ -67,10 +67,12 @@ namespace fgseg {
 		cv::Mat _shadowmask; //binary mask for detected shadows
 		cv::Mat _fgmask; //binary image for foreground (FG)
 		cv::Mat _bkg1;
+		cv::Mat _tempbgmask;
 
 		bool _rgb;
 
 		double _threshold;
+
 		//ADD ADITIONAL VARIABLES HERE
 		//...
 		double _alpha;

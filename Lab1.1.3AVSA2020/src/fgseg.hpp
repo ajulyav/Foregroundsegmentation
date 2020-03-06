@@ -68,6 +68,7 @@ namespace fgseg {
 		cv::Mat _fgmask; //binary image for foreground (FG)
 		cv::Mat _bkg1;
 		cv::Mat counter;
+		cv::Mat _tempbgmask;
 
 		bool _rgb;
 

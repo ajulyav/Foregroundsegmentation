@@ -102,11 +102,11 @@ int main(int argc, char ** argv)
 
 			// TO CHANGE (comment/uncomment/...) FOR DIFF PROJECTS
 			//background subtraction parameters
-			double tau = 50; // to set ... //Lab1.1.1-3
+			double tau = 100; // to set ... //Lab1.1.1-3 //90 for RGB, 45-50 for Gray
 			double alpha=0.0; // to set ... //Lab1.1.2-3
 			bool selective_bkg_update = false; // true ... //Lab1.1.2-3
 			int threshold_ghosts2=0; // to set ... //Lab1.1.3
-			bool rgb = false; //true;
+			bool rgb = true; //true;
 
 			fgseg::bgs avsa_bgs(tau, rgb); //construct object of the bgs class
 			//fgseg::bgs avsa_bgs(tau, alpha, selective_bkg_update, rgb); //construct object of the bgs class

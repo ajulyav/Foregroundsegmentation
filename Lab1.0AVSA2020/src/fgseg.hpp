@@ -67,6 +67,10 @@ namespace fgseg {
 		bool _rgb;
 
 		double _threshold;
+
+
+		cv::Mat _tempbgmask;
+
 		//ADD ADITIONAL VARIABLES HERE
 		//...
 
