@@ -182,7 +182,7 @@ void bgs::new_fgmask(cv::Mat frame)
 
 			}
 		}
-		absdiff(_frame,_mean,_diff);
-		_bkg = (_diff/_sigma)<=0;
-		//_fgmask = (_diff/_sigma)>0;
+		//absdiff(_frame,_mean,_diff);
+		//_bkg = (_diff/_sigma)<=0;
+		_fgmask = mask;
 }
