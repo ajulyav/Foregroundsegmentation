@@ -1,6 +1,10 @@
 # Foregroundsegmentation
 Lab1
 UPDATES
+
+READ REPORT FOR MORE DETAILS
+
+__________________________
 Changes(07.03)
 Fix Lab 4.1 - Gaussian works
 Lab 3.1 - did a loop for shadow detection but there is an error
